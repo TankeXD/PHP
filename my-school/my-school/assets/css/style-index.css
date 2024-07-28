@@ -1,0 +1,73 @@
+
+
+
+/* ajustar el tamaño de las imagenes del slider */
+.carousel-item img {
+    height: 550px;
+    /* Ajusta esto al tamaño que desees */
+    width: 100%;
+    object-fit: cover;
+    /* Mantiene la proporción y recorta el exceso */
+}
+
+/* para los titulos */
+.titles {
+    color: rgba(101, 89, 169, 0.93);
+}
+
+/* todo para stilo de las cards */
+.card-equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-equal-height .card-header,
+.card-equal-height .card-footer {
+    flex: 0 0 auto;
+}
+
+.card-equal-height .card-body {
+    flex: 1 1 auto;
+}
+
+.product-card {
+    /* border: 2px solid #4CAF50; */
+    background-color: rgba(144, 241, 244, 0.58);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.student-card {
+    border: 2px solid #50C4ED;
+    /* Azul */
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.student-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-cards .card-title {
+    color: rgba(101, 89, 169, 0.93);
+    /* titulo de la card */
+}
+
+.student-cards .card-title {
+    color: #2196F3;
+    /* Azul */
+}
+
+/* Ajustar el tamaño de las imágenes de las cards */
+.card-img-top {
+    height: 200px;
+    /* Ajusta esta altura según tu necesidad */
+    object-fit: cover;
+}
+
